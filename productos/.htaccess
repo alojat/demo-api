@@ -1,0 +1,5 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+#Vamos que redireccionar todas las rutas a index.php
+RewriteRule ^(.*)$ index.php
